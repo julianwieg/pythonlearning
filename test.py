@@ -32,3 +32,14 @@ won_competition = True
 if average_grade == "A" or final_score >= 1500 or won_competition:
  print( "OR Certificate achieved!")
 
+#self-assign variables can be in or decreased easily
+number = 1
+number += 1
+print(number)
+
+#while loops   loops and stuff   counter variable
+counter = 1
+while counter < 4:
+  print("keep going")
+  counter += 1
+
