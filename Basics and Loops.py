@@ -1,3 +1,8 @@
+#Python Basics
+#Types and Comparisons
+#Conditional Statements
+#Loops
+
 #fstring format strings can print different types as strings
 how_many_new_mess = 2
 print(f"{how_many_new_mess} new messages")
@@ -6,15 +11,13 @@ print(f"{how_many_new_mess} new messages")
 if True:
   print("if else true is statement")
 
-
 age = 75
 if age >=55:
   print ("Discount applied")
 
 
-
 points = 7600
-points_needed= 8000
+points_needed = 8000
 
 if points >= points_needed:
  print("You're Level 2!")
@@ -42,4 +45,10 @@ counter = 1
 while counter < 4:
   print("keep going")
   counter += 1
+
+#for loops
+for i in range(6):
+  print(i)
+
+
 
