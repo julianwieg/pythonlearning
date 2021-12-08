@@ -10,6 +10,24 @@ print(users)
 print(removed)
 print(len(users))
 
-#numbers  min max 
-shares = [12,3, 5, 10]
+#numbers  min max  and sort numbers  sort strings alphabetical A to z
+shares = [12, 3, 5, 10]
 print(max(shares))
+shares.sort()
+print(shares)
+
+#numbers  sum 
+shares = [12, 3, 5, 10]
+total = sum(shares)
+print(total)
+
+#you can combine lists even diff types   joining lists
+seats = [1, 2, 3,]
+taken = [False, True, False]
+print (seats + taken)
+
+#counting elements
+countme = [False, True, False]
+print(countme.count(False))
+#if you want to know if an element exists
+print(True in countme)

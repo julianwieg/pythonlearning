@@ -32,7 +32,7 @@ average_grade = "B"
 final_score = 1400
 won_competition = True
 
-if average_grade == "A" or final_score >= 1500 or won_competition:
+if average_grade == "A" or final_score >= 1500 or won_competition:   #AND can replace OR to change logic.. obviously
  print( "OR Certificate achieved!")
 
 #self-assign variables can be in or decreased easily
