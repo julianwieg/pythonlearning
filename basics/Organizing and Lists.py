@@ -26,8 +26,9 @@ seats = [1, 2, 3,]
 taken = [False, True, False]
 print (seats + taken)
 
-#counting elements
+#counting elements  count() counts everything
 countme = [False, True, False]
-print(countme.count(False))
 #if you want to know if an element exists
+print(countme.count(False))
+
 print(True in countme)
