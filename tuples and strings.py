@@ -12,7 +12,7 @@ print(mia_score)
 for user_score in score:        #or iterate through
     print(f"Result {user_score}")
 
-# to store a typle returned by a function assign a function calls result to variable like results
+# to store a tuple returned by a function assign a function calls result to variable like results
 def get_highlow(values_list):
     high_value = max(values_list)
     low_value = min(values_list)
