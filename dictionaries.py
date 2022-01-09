@@ -9,7 +9,7 @@ locations = {
     "list": ["item1", "item2"]
 }
 
-print(locations)  ##print all
+print(locations)  ##print all     test
 
 for i in locations:
     print("---- print key ----")
