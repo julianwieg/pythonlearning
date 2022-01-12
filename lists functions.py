@@ -23,4 +23,18 @@ print(prefix)
 counte = [name.count("e") for name in users]
 print(counte)
 
-# doing it in functions 
+# doing it in functions . we pack the operations we wanna do in a function and for each value we can then use it as an expression
+def halve(num):
+    no_tax = 0.2 * num
+    return num/2
+
+halved = [halve(price) for price in prices]
+
+authors = ["Virginia Wolf", "John Steinbeck"]
+
+def add_comma (name):
+    parts = name. split(" ")
+    return parts [1] + ", " + parts[0]
+
+authors_update = [add_comma(name) for name in authors]
+print(authors_update)
