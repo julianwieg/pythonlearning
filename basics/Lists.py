@@ -32,3 +32,7 @@ countme = [False, True, False]
 print(countme.count(False))
 
 print(True in countme)
+
+# remove duplicates from list is to transform list to set
+users = ["julian", "peter", "marcos","julian"]
+users_dupsremoved = set(users)
