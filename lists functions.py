@@ -38,3 +38,12 @@ def add_comma (name):
 
 authors_update = [add_comma(name) for name in authors]
 print(authors_update)
+
+# you can do conditional statements. normally started with the expression, the for loop and finished with IF statement
+high_prices = [price for price in prices if price > 20 and price < 88]
+print(high_prices)
+
+# example with string
+websites = ["ab.com", "lom.fr", "other.de"]
+french = [website for website in websites if website.count(".fr") > 0]
+print(french)
